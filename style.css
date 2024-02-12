@@ -1,9 +1,75 @@
-body {
+#navbar {
+    width: 133px;
+    height: 25px;
+    top: 40px;
+    left: 77px;
+    font-style: inconsolata;
+    font-weight: 700;
+    font-family: monospace;
+    line-height: 25.18px;
+    letter-spacing: -8%;
     margin: 0;
     padding: 0;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
 
 }
 
-#navbar {
-    border: 3px solid green;
+img {
+width: 539.22px;
+height: 447.43px;
+top: 265px;
+left: 77;
+
+
+}
+
+#leftbox {
+    margin: 0px 10px 10px 10px;
+}
+
+#rightbox {
+    margin: 0px 10px 10px 10px;
+}
+
+#rightbox h1 {
+    width: 586px;
+    height: 190px;
+    top: 265px;
+    left: 735px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -3.5%;
+    text-align: left;
+    
+}
+
+#ridhtbox p {
+    width: 381px;
+    height: 108px;
+    top: 491px;
+    left: 736;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+    color: #4f4f4f;
+}
+
+button {
+    width: 216px;
+    height: 68px;
+    top: 663px;
+    left: 740px;
+    background-color: #333333;
+    color: #fff;
+    margin: 20px 0 0 0;
 }
